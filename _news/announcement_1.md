@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-06-15 00:00:00
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement.
+Started a summer research project on Gravitational Wave Data Analysis at the University of Cambridge.

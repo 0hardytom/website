@@ -2,96 +2,78 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Tom Hardy
     - name: Languages
-      value: English, German
+      value: English (Native)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MPhys Physics
+      institution: Durham University, Durham, UK
+      year: 2022 - 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Predicted High 1st Class Honours.
+        - Awarded First Year Laboratory Module Award (highest mark in the year).
+        - Chair of the Physics staff-student committee.
+    - title: A-Levels & GCSEs
+      institution: John Hampden Grammar School, High Wycombe, UK
+      year: 2015 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - 5 A-Levels (5A*s).
+        - 11 GCSEs (all grade 9).
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern
+      institution: University of Cambridge (Institute of Astronomy / Kavli Institute of Cosmology)
+      year: Summer 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Project on Gravitational Wave Data Analysis.
+        - Developing a Simulation-Based Inference (SBI) pipeline to detect gravitational wave mismodeling in LIGO/VIRGO data.
+        - Supervisor Dr. James Alvey.
+    - title: Research Intern
+      institution: University of Oxford
+      year: Summer 2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Project on Radio Astronomy & Pipeline Development.
+        - Engineered PHiSEP, a neutral hydrogen source extraction pipeline using ProFound.
+        - Developed an MPI-enabled HPC pipeline for MIGHTEE-HI/COSMOS and simulated SKA data.
+    - title: Research Intern
+      institution: Durham University
+      year: Summer 2023
       description:
+        - Project on AI in Physics Education.
+        - Conducted a statistical investigation into the power of Large Language Models on physics education.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: 'A comprehensive statistical investigation into the power of non-specialist large language models on physics education from GCSE to university levels'
+      year: 2024
+      description: "Yeadon, W., & Hardy, T. (2024). *Physics Education*, 59(3), 035024."
+    - title: In Preparation
+      year: 2025
+      description: "One publication documenting the computing architecture for the source extractor developed at Oxford."
+    - title: In Preparation
+      year: 2025
+      description: "One co-authorship for work with the MIGHTEE-HI collaboration."
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Technical Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<b>Programming:</b> Python (advanced, HPC, MPI parallelisation), R, C# (ManuScript for Sibelius plugins), BASH scripting, Unix."
+    - "<b>Data Science & ML:</b> Simulation-Based Inference (SBI), Advanced Markov Chain Monte-Carlo (MCMC) simulations."
+    - "<b>Astronomical Software:</b> ProFound, Aegean, SoFIA, PHOEBE, Nightfall, Astropy, PyAstronomy."
+
+- title: Other Experience
+  type: time_table
+  contents:
+    - title: Freelance Orchestrator, Arranger, and Music Publisher
+      year: 2020 - Present
+      description: Internationally recognised musician with clients including GRAMMY-winning artists, the BBC, Metropole Orkest, and Danish Radio Symphony Orchestra.
+    - title: Levelling Up Physics Mentor
+      institution: Durham University
+      year: 2023 - 2024
+      description: Provided academic and pastoral support to young people from underrepresented backgrounds.
